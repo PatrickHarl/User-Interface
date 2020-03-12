@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Sen', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,163 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.website {
+
+	width:50%;
+	margin:0 auto;
+
+}
+
+.nav-links{
+
+	
+	width:85%;
+	display:inline-block;
+	margin-right:-4px;
+	padding-bottom:10px;
+	vertical-align: top;
+	
+	
+
+}
+.nav-links a{
+
+	display:inline-block;
+	padding:10px 70px 0px 0px;
+	color:grey;
+	text-decoration:none;
+
+}
+.nav-links a:hover{
+
+	animation-name:nav-anim;
+	animation-duration: 1.5s;
+	  
+
+}
+
+.logo {
+
+	
+	width:14%;
+	display:inline-block;
+	padding-top:3px;
+	
+
+}
+
+.page-header {
+
+	
+	display:inline-block;
+	vertical-align:top;
+	width:50%;
+	margin-top:115px;
+	margin-left:40px;
+
+}
+.page-header h1 {
+
+	font-size:75px;
+	text-align:center;
+	
+
+}
+.start-button {
+
+	border:1px solid grey;
+	width:125px;
+	text-align:center;
+	margin:0 auto;
+	padding:3px 0px;
+
+}
+.header-img {
+
+
+	display:inline-block;
+	padding-top:50px;
+	padding-left:50px;
+	
+
+}
+
+.mid-section-info {
+
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	margin-top:70px;
+
+}
+.features {
+
+	
+	width:50%;
+	margin-right:-4px;
+	padding:30px 6px 30px 0px;
+	display:inline-block;
+
+}
+.about {
+
+	
+	width:49%;
+	padding:30px 10px 30px 25px;
+	display:inline-block;
+
+}
+.middle-img {
+
+	
+	width:100%;
+
+}
+.services {
+
+	
+	padding:30px 10px 30px 0px;
+	width:33%;
+	margin-top:-2px;
+	display:inline-block;
+
+}
+
+.product {
+
+	
+	padding:30px 10px 30px 0px;
+	width:33%;
+	margin-top:-2px;
+	display:inline-block;
+
+}
+.vision {
+
+	
+	padding:30px 10px 30px 0px;
+	width:33%;
+	margin-top:-2px;
+	display:inline-block;
+
+}
+.contact {
+
+	padding-top:30px;
+
+}
+.copywrite {
+
+
+		text-align:center;
+		margin-top:50px;
+
+}
+
+@keyframes nav-anim {
+	0% {color: grey;}
+	50% {color: #1871ff;}
+	100% {color:grey;}
+  }
+
+  
